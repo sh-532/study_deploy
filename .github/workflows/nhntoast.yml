@@ -20,9 +20,9 @@ jobs:
       - name: Run scripts in server
         uses: appleboy/ssh-action@master
         with:
-          key: ${{ secrets.SSH_KEY }}
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USER }}
+          key: ${{ secrets.REL_SSH_KEY }}
+          host: ${{ secrets.REL_HOST }}
+          username: ${{ secrets.REL_USER }}
           script: |
             cd server
             git reset --hard
