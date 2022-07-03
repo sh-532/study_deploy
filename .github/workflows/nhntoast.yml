@@ -22,7 +22,7 @@ jobs:
         with:
           key: ${{ secrets.REL_SSH_KEY }}
           host: ${{ secrets.REL_HOST }}
-          username: ${{ secrets.REL_USER }}
+          username: ${{ secrets.DEV_USER }}
           script: |
             cd server
             git reset --hard
