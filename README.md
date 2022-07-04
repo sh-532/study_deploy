@@ -1,7 +1,5 @@
 # study_deploy
 initial commit
-will it work
-
-wowowowowowowoo
-
+will it work?????????
+whyrano
 whyrano
